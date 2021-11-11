@@ -23,7 +23,7 @@ extension CaptureImageView: UIViewControllerRepresentable {
     func makeUIViewController(context: UIViewControllerRepresentableContext<CaptureImageView>) -> UIImagePickerController {
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator
-        picker.sourceType = .camera  //comment out this line to enable previews for content view
+        //picker.sourceType = .camera  //comment out this line to enable previews for content view
         //above line enables camera for device
         
         return picker

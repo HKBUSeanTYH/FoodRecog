@@ -9,39 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var image: Image? = nil
-    @State var showCaptureImageView = true
+    //transparent navigation bar
+    init() {
+        UINavigationBar.changeAppearance(clear: true)
+    }
     
     var body: some View {
-        ZStack{
-            NavigationView{
-                VStack{
-                    HStack{
-                        Spacer()
-                        image?.resizable()
-                            .frame(width: 250, height: 250)
-                        //                .clipShape(Circle())
-                        //                .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                        //                .shadow(radius: 10)
-                        Spacer()
-                    }
-                    
-                    
-                }.navigationBarTitle(Text("Food Recognizer"), displayMode: .inline)
-                .toolbar{
-                    Button(action: {
-                        self.showCaptureImageView.toggle()
-                    }){
-                        VStack {
-                            Image(systemName: "camera")
-                            Text("Camera")
-                        }
-                    }
-                }
-            }.navigationViewStyle(StackNavigationViewStyle())
+        TabView {
+            HomeView().tabItem {
+                Image(systemName: "house")
+                Text("Home")
+            }
             
-            if (showCaptureImageView) {
-                CaptureImageView(isShown: $showCaptureImageView, image: $image)
+            HistoryView().tabItem {
+                Image(systemName: "clock.arrow.circlepath")
+                Text("History")
             }
         }
     }
@@ -54,3 +36,20 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 //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
+
+//transparent navigation bar
+extension UINavigationBar {
+    static func changeAppearance(clear: Bool) {
+        let appearance = UINavigationBarAppearance()
+        
+        if clear {
+            appearance.configureWithTransparentBackground()
+        } else {
+            appearance.configureWithDefaultBackground()
+        }
+        
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().compactAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+    }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664E3979273D12B60098988B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E3978273D12B60098988B /* HomeView.swift */; };
+		664E397B273D13500098988B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E397A273D13500098988B /* HistoryView.swift */; };
 		66B42A06273925FD008FD4E2 /* FoodRecogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B42A05273925FD008FD4E2 /* FoodRecogApp.swift */; };
 		66B42A08273925FD008FD4E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B42A07273925FD008FD4E2 /* ContentView.swift */; };
 		66B42A0A273925FF008FD4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B42A09273925FF008FD4E2 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		664E3978273D12B60098988B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		664E397A273D13500098988B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		66B42A02273925FD008FD4E2 /* FoodRecog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRecog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B42A05273925FD008FD4E2 /* FoodRecogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecogApp.swift; sourceTree = "<group>"; };
 		66B42A07273925FD008FD4E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				66B42A0B273925FF008FD4E2 /* Preview Content */,
 				66B42A3027392817008FD4E2 /* CaptureImageView.swift */,
 				66B42A322739287D008FD4E2 /* Coordinator.swift */,
+				664E3978273D12B60098988B /* HomeView.swift */,
+				664E397A273D13500098988B /* HistoryView.swift */,
 			);
 			path = FoodRecog;
 			sourceTree = "<group>";
@@ -266,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66B42A332739287D008FD4E2 /* Coordinator.swift in Sources */,
+				664E397B273D13500098988B /* HistoryView.swift in Sources */,
 				66B42A08273925FD008FD4E2 /* ContentView.swift in Sources */,
 				66B42A06273925FD008FD4E2 /* FoodRecogApp.swift in Sources */,
+				664E3979273D12B60098988B /* HomeView.swift in Sources */,
 				66B42A3127392817008FD4E2 /* CaptureImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
