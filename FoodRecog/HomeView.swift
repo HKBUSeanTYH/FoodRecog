@@ -60,6 +60,8 @@ struct HomeView: View {
                 
                 Divider()
                 Spacer()
+                
+                //add your other contents inside this VStack to be on the same "page" (ZStack)
             }
             
             VStack{
