@@ -22,7 +22,7 @@ struct HomeView: View {
 //
 //                }
 //            }.navigationViewStyle(StackNavigationViewStyle())
-            VStack{
+            VStack {
                 HStack{
                     Spacer()
                     image?.resizable()
@@ -34,7 +34,31 @@ struct HomeView: View {
                     //                .overlay(Circle().stroke(Color.white, lineWidth: 4))
                     //                .shadow(radius: 10)
                     Spacer()
+                }.frame(height: 300)
+                
+                if (image == nil){
+                    Divider()
                 }
+                
+                HStack{
+                    Text("Share:").padding(.trailing, 15)
+                    Divider()
+                    Button(action: {}){
+                        Image(systemName: "envelope.fill")
+                    }.padding(.trailing, 15).padding(.leading, 15)
+                    Button(action: {}){
+                        Text("Share") //replace with relevant image
+                    }.padding(.trailing, 15).padding(.leading, 15)
+                    Button(action: {}){
+                        Text("Share") //replace with relevant image
+                    }.padding(.trailing, 15).padding(.leading, 15)
+                    Button(action: {}){
+                        Text("Share") //replace with relevant image
+                    }.padding(.trailing, 15).padding(.leading, 15)
+                    
+                }.frame(height: 20)
+                
+                Divider()
                 Spacer()
             }
             
