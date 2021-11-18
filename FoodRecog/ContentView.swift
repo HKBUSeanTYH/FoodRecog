@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
     
     //transparent navigation bar
-    init() {
-        UINavigationBar.changeAppearance(clear: true)
-    }
+//    init() {
+//        UINavigationBar.changeAppearance(clear: true)
+//    }
     
     var body: some View {
         TabView {
@@ -38,18 +38,18 @@ struct ContentView_Previews: PreviewProvider {
 //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
 
 //transparent navigation bar
-extension UINavigationBar {
-    static func changeAppearance(clear: Bool) {
-        let appearance = UINavigationBarAppearance()
-        
-        if clear {
-            appearance.configureWithTransparentBackground()
-        } else {
-            appearance.configureWithDefaultBackground()
-        }
-        
-        UINavigationBar.appearance().standardAppearance = appearance
-        UINavigationBar.appearance().compactAppearance = appearance
-        UINavigationBar.appearance().scrollEdgeAppearance = appearance
-    }
-}
+//extension UINavigationBar {
+//    static func changeAppearance(clear: Bool) {
+//        let appearance = UINavigationBarAppearance()
+//        
+//        if clear {
+//            appearance.configureWithTransparentBackground()
+//        } else {
+//            appearance.configureWithDefaultBackground()
+//        }
+//        
+//        UINavigationBar.appearance().standardAppearance = appearance
+//        UINavigationBar.appearance().compactAppearance = appearance
+//        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+//    }
+//}
