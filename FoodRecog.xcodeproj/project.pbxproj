@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EE377F06D318776FB6D70AF /* Pods_FoodRecog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8DFEDF9B38D770ECE056B2 /* Pods_FoodRecog.framework */; };
-		5BC478E9EC5146E8EB5A5A5A /* Pods_FoodRecog_FoodRecogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B82B8E523BDA6A8B6187FC2 /* Pods_FoodRecog_FoodRecogUITests.framework */; };
 		664E3979273D12B60098988B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E3978273D12B60098988B /* HomeView.swift */; };
 		664E397B273D13500098988B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E397A273D13500098988B /* HistoryView.swift */; };
 		66B42A06273925FD008FD4E2 /* FoodRecogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B42A05273925FD008FD4E2 /* FoodRecogApp.swift */; };
@@ -19,7 +17,6 @@
 		66B42A2327392600008FD4E2 /* FoodRecogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B42A2227392600008FD4E2 /* FoodRecogUITests.swift */; };
 		66B42A3127392817008FD4E2 /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B42A3027392817008FD4E2 /* CaptureImageView.swift */; };
 		66B42A332739287D008FD4E2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B42A322739287D008FD4E2 /* Coordinator.swift */; };
-		B01D586CD88B2A3C9CF81853 /* Pods_FoodRecogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D3501A424137C142E4488 /* Pods_FoodRecogTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,31 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		179D3501A424137C142E4488 /* Pods_FoodRecogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B82B8E523BDA6A8B6187FC2 /* Pods_FoodRecog_FoodRecogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecog_FoodRecogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21A249B0547B90EED49D2459 /* Pods-FoodRecog-FoodRecogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecog-FoodRecogUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodRecog-FoodRecogUITests/Pods-FoodRecog-FoodRecogUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3A8DFEDF9B38D770ECE056B2 /* Pods_FoodRecog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRecog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		646FE9924CA7C48E4F6995E8 /* Pods-FoodRecogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecogTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecogTests/Pods-FoodRecogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		664E3978273D12B60098988B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		664E397A273D13500098988B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
-		66B42A02273925FD008FD4E2 /* FoodRecog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRecog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B42A02273925FD008FD4E2 /* FoodRecog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FoodRecog.app; path = "/Users/xdeveloper/Desktop/FoodRecog/build/Debug-iphoneos/FoodRecog.app"; sourceTree = "<absolute>"; };
 		66B42A05273925FD008FD4E2 /* FoodRecogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecogApp.swift; sourceTree = "<group>"; };
 		66B42A07273925FD008FD4E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66B42A09273925FF008FD4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66B42A0C273925FF008FD4E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66B42A0E273925FF008FD4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66B42A1327392600008FD4E2 /* FoodRecogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodRecogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B42A1327392600008FD4E2 /* FoodRecogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FoodRecogTests.xctest; path = "/Users/xdeveloper/Desktop/FoodRecog/build/Debug-iphoneos/FoodRecogTests.xctest"; sourceTree = "<absolute>"; };
 		66B42A1727392600008FD4E2 /* FoodRecogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecogTests.swift; sourceTree = "<group>"; };
 		66B42A1927392600008FD4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66B42A1E27392600008FD4E2 /* FoodRecogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodRecogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B42A1E27392600008FD4E2 /* FoodRecogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FoodRecogUITests.xctest; path = "/Users/xdeveloper/Desktop/FoodRecog/build/Debug-iphoneos/FoodRecogUITests.xctest"; sourceTree = "<absolute>"; };
 		66B42A2227392600008FD4E2 /* FoodRecogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecogUITests.swift; sourceTree = "<group>"; };
 		66B42A2427392600008FD4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66B42A3027392817008FD4E2 /* CaptureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
 		66B42A322739287D008FD4E2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		700F285DDE50807DFB110864 /* Pods-FoodRecog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecog.release.xcconfig"; path = "Target Support Files/Pods-FoodRecog/Pods-FoodRecog.release.xcconfig"; sourceTree = "<group>"; };
-		9199729113F58664EF0BBDC6 /* Pods-FoodRecogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecogTests.release.xcconfig"; path = "Target Support Files/Pods-FoodRecogTests/Pods-FoodRecogTests.release.xcconfig"; sourceTree = "<group>"; };
-		F9C0AED3CCD1E678E81D66D5 /* Pods-FoodRecog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecog.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecog/Pods-FoodRecog.debug.xcconfig"; sourceTree = "<group>"; };
-		FCBAC0C5BD570BA9A50D5933 /* Pods-FoodRecog-FoodRecogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRecog-FoodRecogUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodRecog-FoodRecogUITests/Pods-FoodRecog-FoodRecogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE377F06D318776FB6D70AF /* Pods_FoodRecog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01D586CD88B2A3C9CF81853 /* Pods_FoodRecogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC478E9EC5146E8EB5A5A5A /* Pods_FoodRecog_FoodRecogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,20 +86,7 @@
 				66B42A04273925FD008FD4E2 /* FoodRecog */,
 				66B42A1627392600008FD4E2 /* FoodRecogTests */,
 				66B42A2127392600008FD4E2 /* FoodRecogUITests */,
-				66B42A03273925FD008FD4E2 /* Products */,
-				D8C548D32FB925A3B2D1F3A3 /* Pods */,
-				81A08227D114F13C60DCC692 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		66B42A03273925FD008FD4E2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				66B42A02273925FD008FD4E2 /* FoodRecog.app */,
-				66B42A1327392600008FD4E2 /* FoodRecogTests.xctest */,
-				66B42A1E27392600008FD4E2 /* FoodRecogUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		66B42A04273925FD008FD4E2 /* FoodRecog */ = {
@@ -157,30 +129,6 @@
 				66B42A2427392600008FD4E2 /* Info.plist */,
 			);
 			path = FoodRecogUITests;
-			sourceTree = "<group>";
-		};
-		81A08227D114F13C60DCC692 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3A8DFEDF9B38D770ECE056B2 /* Pods_FoodRecog.framework */,
-				1B82B8E523BDA6A8B6187FC2 /* Pods_FoodRecog_FoodRecogUITests.framework */,
-				179D3501A424137C142E4488 /* Pods_FoodRecogTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D8C548D32FB925A3B2D1F3A3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F9C0AED3CCD1E678E81D66D5 /* Pods-FoodRecog.debug.xcconfig */,
-				700F285DDE50807DFB110864 /* Pods-FoodRecog.release.xcconfig */,
-				FCBAC0C5BD570BA9A50D5933 /* Pods-FoodRecog-FoodRecogUITests.debug.xcconfig */,
-				21A249B0547B90EED49D2459 /* Pods-FoodRecog-FoodRecogUITests.release.xcconfig */,
-				646FE9924CA7C48E4F6995E8 /* Pods-FoodRecogTests.debug.xcconfig */,
-				9199729113F58664EF0BBDC6 /* Pods-FoodRecogTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +225,7 @@
 				Base,
 			);
 			mainGroup = 66B429F9273925FD008FD4E2;
-			productRefGroup = 66B42A03273925FD008FD4E2 /* Products */;
+			productRefGroup = 66B429F9273925FD008FD4E2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -615,7 +563,6 @@
 		};
 		66B42A2827392600008FD4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9C0AED3CCD1E678E81D66D5 /* Pods-FoodRecog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -638,7 +585,6 @@
 		};
 		66B42A2927392600008FD4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 700F285DDE50807DFB110864 /* Pods-FoodRecog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -661,7 +607,6 @@
 		};
 		66B42A2B27392600008FD4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 646FE9924CA7C48E4F6995E8 /* Pods-FoodRecogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -683,7 +628,6 @@
 		};
 		66B42A2C27392600008FD4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9199729113F58664EF0BBDC6 /* Pods-FoodRecogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -705,7 +649,6 @@
 		};
 		66B42A2E27392600008FD4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCBAC0C5BD570BA9A50D5933 /* Pods-FoodRecog-FoodRecogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -725,7 +668,6 @@
 		};
 		66B42A2F27392600008FD4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21A249B0547B90EED49D2459 /* Pods-FoodRecog-FoodRecogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
