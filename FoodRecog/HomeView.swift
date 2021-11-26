@@ -22,7 +22,6 @@ struct HomeView: View {
 //
 //                }
 //            }.navigationViewStyle(StackNavigationViewStyle())
-            //Layer 1
             VStack {
                 HStack{
                     Spacer()
@@ -65,7 +64,6 @@ struct HomeView: View {
                 //add your other contents inside this VStack to be on the same "page" (ZStack)
             }
             
-            //Layer 2
             VStack{
                 HStack{
                     Spacer()
@@ -81,7 +79,8 @@ struct HomeView: View {
                 Spacer()
             }
             
-            //Layer 3
+            
+            
             if (showCaptureImageView) {
                 CaptureImageView(isShown: $showCaptureImageView, image: $image)
                     //.edgesIgnoringSafeArea(.top)
